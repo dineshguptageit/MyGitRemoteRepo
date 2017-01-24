@@ -6,6 +6,7 @@ public class StrEquals {
 		new StrEquals().printMsg("New in git");
 	}
 	void printMsg(String str){
+		System.out.println("Inside printMsg method()...");
 		System.out.println(str);
 	}
 }
