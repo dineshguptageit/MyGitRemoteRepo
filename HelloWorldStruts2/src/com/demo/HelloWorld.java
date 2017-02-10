@@ -22,7 +22,7 @@ public class HelloWorld {
 		this.username = username;
 	}
 
-	// all struts logic here for business
+	// all struts code here for business logic
 	public String execute() {
 		System.out.println("username :"+username);
 		if(password != null && password.equals("Test")){
