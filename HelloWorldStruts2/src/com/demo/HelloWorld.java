@@ -23,7 +23,7 @@ public class HelloWorld {
 	}
 
 	// all struts code here for business logic
-	//main method
+	//main method, execute
 	public String execute() {
 		System.out.println("username :"+username);
 		if(password != null && password.equals("Test")){
