@@ -8,12 +8,10 @@
 <title>Hello World1</title>
 </head>
 <body>
-	<h3>Struts 2 Hello World Example</h3>
+	Struts 2 Hello World Example<br>
 
-	<h4>
 		<font color="red">Incorrect password</font>
 		<s:property value="password"/>
-	</h4>
 
 </body>
 </html>
