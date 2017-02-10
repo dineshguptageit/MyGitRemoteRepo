@@ -25,7 +25,13 @@ public class HelloWorld {
 	// all struts logic here
 	public String execute() {
 
-		return "SUCCESS";
+		System.out.println("username :"+username);
+		if(password != null && password.equals("Test")){
+			return "SUCCESS";
+		}else{
+			return "FAIL";
+		}
+		
 
 	}
 }

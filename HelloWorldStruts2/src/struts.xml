@@ -3,6 +3,7 @@
 	<package name="default" extends="struts-default">
 		<action name="HelloWorld" class="com.demo.HelloWorld">
 			<result name="SUCCESS">/success.jsp</result>
+			<result name="FAIL">/error.jsp</result>
 		</action>
 	</package>
 </struts>
