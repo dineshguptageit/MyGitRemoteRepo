@@ -8,14 +8,14 @@
 <title>Hello World1</title>
 </head>
 <body>
-	<h1>Struts 2 Hello World Example</h1>
+	<h3>Struts 2 Hello World Example</h3>
 
-	<h2>
+	<h4>
 		Hello
 		<s:property value="username" />
 		Your password is:
 		<s:property value="password"/>
-	</h2>
+	</h4>
 
 </body>
 </html>
